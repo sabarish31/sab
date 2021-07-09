@@ -8,6 +8,7 @@ stage('build') {
    steps {
         echo "dislay"
      sh 'mvn --version'
+     sh 'mvn clean package'
      }
 }
 }
