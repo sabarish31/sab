@@ -7,6 +7,7 @@ stages{
 stage('build') {
    steps {
         echo "dislay"
+     sh 'mvn clean package'
      }
 }
 }
